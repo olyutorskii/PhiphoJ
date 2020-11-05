@@ -8,7 +8,14 @@
 ## What is PhiphoJ ? ##
 
 * **PhiphoJ** is a Java library
-that supports primitive-typed array based ring buffer.
+that supports primitive-type array based ring buffer.
+
+* It's not generics container like java.util.Queue&lt;E&gt;.
+There is no boxing/unboxing. It's GC-friendly.
+
+* It provides fast random access in ring buffer.
+
+* Ring buffers are also called Circular buffer, FIFO or Queue.
 
 
 ## How to build ##
