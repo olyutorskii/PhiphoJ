@@ -565,7 +565,7 @@ public abstract class AbstractRingBuf {
      *
      * @return raw index iterator
      */
-    protected PrimitiveIterator.OfInt rawIdxIterator​() {
+    protected PrimitiveIterator.OfInt rawIdxIterator() {
         return new RawIdxIterator();
     }
 
