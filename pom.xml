@@ -240,7 +240,7 @@
                         <dependency>
                             <groupId>com.puppycrawl.tools</groupId>
                             <artifactId>checkstyle</artifactId>
-                            <version>8.42</version>
+                            <version>9.3</version>
                         </dependency>
                     </dependencies>
                 </plugin>
@@ -439,57 +439,9 @@
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>versions-maven-plugin</artifactId>
-                <version>2.8.1</version>
-            </plugin>
-
         </plugins>
 
         <resources>
-
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-                <includes>
-                    <include>**/version.properties</include>
-                </includes>
-            </resource>
-
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.txt</include>
-
-                    <include>**/*.properties</include>
-
-                    <include>**/*.xml</include>
-                    <include>**/*.xsd</include>
-                    <include>**/*.dtd</include>
-
-                    <include>**/*.html</include>
-                    <include>**/*.htm</include>
-                    <include>**/*.css</include>
-
-                    <include>**/*.png</include>
-                    <include>**/*.gif</include>
-                    <include>**/*.jpeg</include>
-                    <include>**/*.jpg</include>
-                </includes>
-                <excludes>
-                    <exclude>**/version.properties</exclude>
-
-                    <exclude>**/.DS_Store</exclude>
-                    <exclude>**/__MACOSX</exclude>
-                    <exclude>**/Thumbs.db</exclude>
-                    <exclude>**/thumbs.db</exclude>
-                    <exclude>**/Desktop.ini</exclude>
-                    <exclude>**/desktop.ini</exclude>
-                    <exclude>**/core</exclude>
-                </excludes>
-            </resource>
-
         </resources>
 
     </build>
