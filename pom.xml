@@ -164,7 +164,7 @@
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.10</version>
+                    <version>0.8.12</version>
                 </plugin>
 
                 <plugin>
@@ -255,12 +255,12 @@
                 <plugin>
                     <groupId>com.github.spotbugs</groupId>
                     <artifactId>spotbugs-maven-plugin</artifactId>
-                    <version>4.7.3.6</version>
+                    <version>4.8.6.4</version>
                     <dependencies>
                         <dependency>
                             <groupId>com.github.spotbugs</groupId>
                             <artifactId>spotbugs</artifactId>
-                            <version>4.7.3</version>
+                            <version>4.8.6</version>
                         </dependency>
                     </dependencies>
                 </plugin>
