@@ -20,8 +20,8 @@ import java.util.PrimitiveIterator;
  * <p>Fixed length buffer only supported.
  *
  * @see <a href="https://en.wikipedia.org/wiki/Circular_buffer">
- * Circular Buffer (Wikipedia)
- * </a>
+ *     Circular Buffer (Wikipedia)
+ *     </a>
  */
 public abstract class AbstractRingBuf {
 
@@ -475,8 +475,8 @@ public abstract class AbstractRingBuf {
      *
      * @return {@inheritDoc}
      * @see <a href="https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function#FNV-1a_hash">
-     * FNV-1a hash (Wikipedia)
-     * </a>
+     *     FNV-1a hash (Wikipedia)
+     *     </a>
      */
     @Override
     public int hashCode() {
