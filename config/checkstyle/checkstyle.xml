@@ -6,7 +6,7 @@
 
 <!--
     Checkstyle modules
-    for Checkstyle 10.25.0 or later
+    for Checkstyle 13.2.0 or later
 
     [ https://checkstyle.org/ ]
 
@@ -83,7 +83,7 @@
     <module name="FileLength" />
     <module name="LineLength">
         <property name="fileExtensions" value="java" />
-        <property name="max" value="100" />
+        <property name="max" value="128" />
     </module>
 
 
@@ -120,6 +120,7 @@
         <module name="AnnotationUseStyle" />
         <module name="MissingDeprecated" />
         <module name="MissingOverride" />
+        <module name="MissingOverrideOnRecordAccessor" />
         <module name="PackageAnnotation" />
         <module name="SuppressWarnings" />
         <module name="SuppressWarningsHolder" />
@@ -289,10 +290,12 @@
         <module name="CommentsIndentation" />
         <module name="DescendantToken" />
         <module name="FinalParameters" />
+        <module name="HexLiteralCase" />
         <module name="Indentation">
             <property name="caseIndent" value="0" />
         </module>
         <module name="NoCodeInFile" />
+        <module name="NumericalPrefixesInfixesSuffixesCharacterCase" />
         <module name="OuterTypeFilename" />
         <module name="TodoComment">
             <property name="format" value="TODO" />
