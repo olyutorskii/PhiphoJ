@@ -20,7 +20,7 @@ There is no boxing/unboxing. It's GC-friendly.
 
 ## How to build ##
 
-* PhiphoJ needs to use [Maven 3.3.9+](https://maven.apache.org/)
+* PhiphoJ needs to use [Maven 3.8.9+](https://maven.apache.org/)
 and JDK 1.8+ to be built.
 
 * PhiphoJ runtime does not depend on any other library at all.
